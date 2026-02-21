@@ -1,0 +1,87 @@
+# CUDA_VISIBLE_DEVICES=3 python main_run_sd_0215_avg.py --save_path ./results/260220_meeting/10-optim --out_mode bg+inst_bg+inst --negative_prompt "ugly, blur, low quality, poor quality, deformed" --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 1 --bce_neg 10 --mul_region_mode --mul_grad 50 --mul_optim 50 --gaus 0 &
+# CUDA_VISIBLE_DEVICES=3 python main_run_sd_0215_avg.py --save_path ./results/260220_meeting/10-optim --out_mode bg+inst_bg+inst --negative_prompt "ugly, blur, low quality, poor quality, deformed" --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 1 --bce_neg 30 --mul_region_mode --mul_grad 30 --mul_optim 30 --gaus 0 &
+# wait
+python main_run_sd_0215.py --save_path ./results/260220_meeting/15-optim --out_mode bg+inst_bg+inst --negative_prompt "ugly, blur, low quality, poor quality, deformed" --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 1 --bce_neg 10 --mul_region_mode --mul_grad 30 --mul_optim 30 --gaus 0 --max_iter 15 &
+python main_run_sd_0215.py --save_path ./results/260220_meeting/15-optim --out_mode bg+inst_bg+inst --negative_prompt "ugly, blur, low quality, poor quality, deformed" --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 1 --bce_neg 20 --mul_region_mode --mul_grad 30 --mul_optim 30 --gaus 0 --max_iter 15 &
+wait
+python main_run_sd_0215.py --save_path ./results/260220_meeting/15-optim --out_mode bg+inst_bg+inst --negative_prompt "ugly, blur, low quality, poor quality, deformed" --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 1 --bce_neg 50 --mul_region_mode --mul_grad 30 --mul_optim 30 --gaus 0 --max_iter 15 &
+python main_run_sd_0215.py --save_path ./results/260220_meeting/15-optim --out_mode bg+inst_bg+inst --negative_prompt "ugly, blur, low quality, poor quality, deformed" --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 1 --bce_neg 10 --mul_region_mode --mul_grad 30 --mul_optim 31 --gaus 0 --max_iter 15 &
+wait
+python main_run_sd_0215.py --save_path ./results/260220_meeting/15-optim --out_mode bg+inst_bg+inst --negative_prompt "ugly, blur, low quality, poor quality, deformed" --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 1 --bce_neg 10 --mul_region_mode --mul_grad 30 --mul_optim 32 --gaus 0 --max_iter 15 &
+python main_run_sd_0215.py --save_path ./results/260220_meeting/15-optim --out_mode bg+inst_bg+inst --negative_prompt "ugly, blur, low quality, poor quality, deformed" --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 1 --bce_neg 10 --mul_region_mode --mul_grad 30 --mul_optim 33 --gaus 0 --max_iter 15 &
+wait
+python main_run_sd_0215.py --save_path ./results/260220_meeting/15-optim --out_mode bg+inst_bg+inst --negative_prompt "ugly, blur, low quality, poor quality, deformed" --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 1 --bce_neg 10 --mul_region_mode --mul_grad 30 --mul_optim 34 --gaus 0 --max_iter 15 &
+python main_run_sd_0215.py --save_path ./results/260220_meeting/15-optim --out_mode bg+inst_bg+inst --negative_prompt "ugly, blur, low quality, poor quality, deformed" --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 1 --bce_neg 20 --mul_region_mode --mul_grad 30 --mul_optim 35 --gaus 0 --max_iter 15 &
+wait
+python main_run_sd_0215.py --save_path ./results/260220_meeting/15-optim --out_mode bg+inst_bg+inst --negative_prompt "ugly, blur, low quality, poor quality, deformed" --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 1 --bce_neg 10 --mul_region_mode --mul_grad 10 --mul_optim 35 --gaus 0 --max_iter 15 &
+python main_run_sd_0215.py --save_path ./results/260220_meeting/15-optim --out_mode bg+inst_bg+inst --negative_prompt "ugly, blur, low quality, poor quality, deformed" --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 1 --bce_neg 30 --mul_region_mode --mul_grad 10 --mul_optim 35 --gaus 0 --max_iter 15 &
+wait
+# CUDA_VISIBLE_DEVICES=3 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --out_mode bg+inst_bg+inst --negative_prompt "ugly, blur, low quality, poor quality, deformed" --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 1 --bce_neg 30 --mul_region_mode --mul_grad 50 --mul_optim 10 --gaus 0 &
+# CUDA_VISIBLE_DEVICES=3 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --out_mode bg+inst_bg+inst --negative_prompt "ugly, blur, low quality, poor quality, deformed" --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 1 --bce_neg 30 --mul_region_mode --mul_grad 40 --mul_optim 40 --gaus 0 &
+# wait
+
+# CUDA_VISIBLE_DEVICES=3 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --out_mode bg+inst_bg+inst --negative_prompt "ugly, blur, low quality, poor quality, deformed" --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 1 --bce_neg 10 --mul_region_mode --mul_grad 10 --mul_optim 50 --gaus 0 &
+# CUDA_VISIBLE_DEVICES=3 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --out_mode bg+inst_bg+inst --negative_prompt "ugly, blur, low quality, poor quality, deformed" --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 1 --bce_neg 10 --mul_region_mode --mul_grad 50 --mul_optim 50 --gaus 0 &
+# wait
+# CUDA_VISIBLE_DEVICES=3 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --out_mode bg+inst_bg+inst --negative_prompt "ugly, blur, low quality, poor quality, deformed" --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 1 --bce_neg 30 --mul_region_mode --mul_grad 10 --mul_optim 50 --gaus 0 &
+# CUDA_VISIBLE_DEVICES=3 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --out_mode bg+inst_bg+inst --negative_prompt "ugly, blur, low quality, poor quality, deformed" --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 1 --bce_neg 30 --mul_region_mode --mul_grad 50 --mul_optim 50 --gaus 0 &
+# wait
+# CUDA_VISIBLE_DEVICES=3 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --out_mode bg+inst_bg+inst --negative_prompt "ugly, blur, low quality, poor quality, deformed" --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 10 --bce_neg 1 --mul_region_mode --mul_grad 10 --mul_optim 30 --gaus 0 &
+# CUDA_VISIBLE_DEVICES=3 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --out_mode bg+inst_bg+inst --negative_prompt "ugly, blur, low quality, poor quality, deformed" --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 10 --bce_neg 1 --mul_region_mode --mul_grad 30 --mul_optim 30 --gaus 0 &
+# wait
+
+
+
+#* - - - - - 260218 - - - - - #
+# CUDA_VISIBLE_DEVICES=1 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 1 --bce_neg 50 --mul_region_mode --mul_grad 10 --mul_optim 30 --gaus 0 &
+# CUDA_VISIBLE_DEVICES=1 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --negative_prompt "ugly, blur, low quality, poor quality, deformed" --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 1 --bce_neg 50 --mul_region_mode --mul_grad 10 --mul_optim 30 --gaus 0 &
+# CUDA_VISIBLE_DEVICES=1 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --negative_prompt "artifacts, blurry, smooth texture, bad quality, distortions, unrealistic, distorted image" --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 1 --bce_neg 50 --mul_region_mode --mul_grad 10 --mul_optim 30 --gaus 0 &
+# wait
+# CUDA_VISIBLE_DEVICES=1 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 10 --bce_neg 10 --mul_region_mode --mul_grad 30 --mul_optim 30 --gaus 0 &
+# CUDA_VISIBLE_DEVICES=1 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 1 --bce_neg 50 --mul_region_mode --mul_grad 30 --mul_optim 30 --gaus 0 &
+# CUDA_VISIBLE_DEVICES=1 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 10 --bce_neg 10 --mul_region_mode --mul_grad 30 --mul_optim 30 --gaus 0 &
+# wait
+# CUDA_VISIBLE_DEVICES=1 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 1 --bce_neg 30 --mul_region_mode --mul_grad 30 --mul_optim 30 --gaus 0 &
+# CUDA_VISIBLE_DEVICES=1 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 10 --bce_neg 10 --mul_region_mode --mul_grad 10 --mul_optim 50 --gaus 0 &
+# CUDA_VISIBLE_DEVICES=1 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 1 --bce_neg 10 --mul_region_mode --mul_grad 10 --mul_optim 30 --gaus 0 &
+# wait
+
+# CUDA_VISIBLE_DEVICES=1 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --negative_prompt "artifacts, blurry, smooth texture, bad quality, distortions, unrealistic, distorted image" --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 1 --bce_neg 30 --mul_region_mode --mul_grad 30 --mul_optim 30 --gaus 0 &
+# CUDA_VISIBLE_DEVICES=1 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --negative_prompt "artifacts, blurry, smooth texture, bad quality, distortions, unrealistic, distorted image" --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 10 --bce_neg 10 --mul_region_mode --mul_grad 10 --mul_optim 50 --gaus 0 &
+# CUDA_VISIBLE_DEVICES=1 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --negative_prompt "artifacts, blurry, smooth texture, bad quality, distortions, unrealistic, distorted image" --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 1 --bce_neg 10 --mul_region_mode --mul_grad 10 --mul_optim 30 --gaus 0 &
+# wait
+#* - - - - - - - - - - - - #
+# CUDA_VISIBLE_DEVICES=1 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --model_id 2 --dataset_yaml ./test_yaml/our_testcase.yaml --mul_region_mode --mul_grad 10 --mul_optim 30 --gaus 0 &
+# CUDA_VISIBLE_DEVICES=1 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --model_id 2 --dataset_yaml ./test_yaml/our_testcase.yaml --mul_region_mode --mul_grad 30 --mul_optim 30 --gaus 0 &
+# CUDA_VISIBLE_DEVICES=1 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --negative_prompt "ugly, blur, low quality, poor quality, deformed" --model_id 2 --dataset_yaml ./test_yaml/our_testcase.yaml --mul_region_mode --mul_grad 10 --mul_optim 30 --gaus 0 &
+# wait
+# CUDA_VISIBLE_DEVICES=1 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --negative_prompt "ugly, blur, low quality, poor quality, deformed" --model_id 2 --dataset_yaml ./test_yaml/our_testcase.yaml --mul_region_mode --mul_grad 30 --mul_optim 30 --gaus 0 &
+# CUDA_VISIBLE_DEVICES=1 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --negative_prompt "artifacts, blurry, smooth texture, bad quality, distortions, unrealistic, distorted image" --model_id 2 --dataset_yaml ./test_yaml/our_testcase.yaml --mul_region_mode --mul_grad 10 --mul_optim 30 --gaus 0 &
+# CUDA_VISIBLE_DEVICES=1 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --negative_prompt "artifacts, blurry, smooth texture, bad quality, distortions, unrealistic, distorted image" --model_id 2 --dataset_yaml ./test_yaml/our_testcase.yaml --mul_region_mode --mul_grad 30 --mul_optim 30 --gaus 0 &
+# wait
+
+
+# CUDA_VISIBLE_DEVICES=1 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --model_id 2 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 10 --bce_neg 10 --mul_region_mode --mul_grad 30 --mul_optim 30 --gaus 0 &
+# CUDA_VISIBLE_DEVICES=1 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --negative_prompt "ugly, blur, low quality, poor quality, deformed" --model_id 2 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 10 --bce_neg 10 --mul_region_mode --mul_grad 30 --mul_optim 30 --gaus 0 &
+# CUDA_VISIBLE_DEVICES=1 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --negative_prompt "artifacts, blurry, smooth texture, bad quality, distortions, unrealistic, distorted image" --model_id 2 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 10 --bce_neg 10 --mul_region_mode --mul_grad 30 --mul_optim 30 --gaus 0 &
+# wait
+
+# CUDA_VISIBLE_DEVICES=1 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --model_id 2 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 10 --bce_neg 10 --mul_region_mode --mul_grad 10 --mul_optim 30 --gaus 0 &
+# CUDA_VISIBLE_DEVICES=1 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --negative_prompt "ugly, blur, low quality, poor quality, deformed" --model_id 2 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 10 --bce_neg 10 --mul_region_mode --mul_grad 10 --mul_optim 30 --gaus 0 &
+# CUDA_VISIBLE_DEVICES=1 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --negative_prompt "artifacts, blurry, smooth texture, bad quality, distortions, unrealistic, distorted image" --model_id 2 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 10 --bce_neg 10 --mul_region_mode --mul_grad 10 --mul_optim 30 --gaus 0 &
+# wait
+
+# CUDA_VISIBLE_DEVICES=1 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --model_id 2 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 10 --bce_neg 30 --mul_region_mode --mul_grad 1 --mul_optim 50 --gaus 0 &
+# CUDA_VISIBLE_DEVICES=1 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --negative_prompt "ugly, blur, low quality, poor quality, deformed" --model_id 2 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 30 --bce_neg 10 --mul_region_mode --mul_grad 1 --mul_optim 50 --gaus 0 &
+# CUDA_VISIBLE_DEVICES=1 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --negative_prompt "artifacts, blurry, smooth texture, bad quality, distortions, unrealistic, distorted image" --model_id 2 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 10 --bce_neg 30 --mul_region_mode --mul_grad 1 --mul_optim 50 --gaus 0 &
+# wait
+
+# CUDA_VISIBLE_DEVICES=1 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 1 --bce_neg 10 --mul_region_mode --mul_grad 30 --mul_optim 30 --gaus 0 &
+# CUDA_VISIBLE_DEVICES=1 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --negative_prompt "ugly, blur, low quality, poor quality, deformed" --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 1 --bce_neg 50 --mul_region_mode --mul_grad 10 --mul_optim 30 --gaus 0 &
+# CUDA_VISIBLE_DEVICES=1 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --negative_prompt "artifacts, blurry, smooth texture, bad quality, distortions, unrealistic, distorted image" --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --bce_mode --bce_grad 1 --bce_optim 1 --bce_neg 30 --mul_region_mode --mul_grad 10 --mul_optim 30 --gaus 0 &
+# wait
+
+# CUDA_VISIBLE_DEVICES=1 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --mul_region_mode --mul_grad 10 --mul_optim 30 --gaus 0 &
+# CUDA_VISIBLE_DEVICES=1 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --negative_prompt "ugly, blur, low quality, poor quality, deformed" --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --mul_region_mode --mul_grad 30 --mul_optim 30 --gaus 0 &
+# CUDA_VISIBLE_DEVICES=1 python main_run_sd_0215.py --save_path ./results/260220_meeting/10-optim --negative_prompt "artifacts, blurry, smooth texture, bad quality, distortions, unrealistic, distorted image" --model_id 1 --dataset_yaml ./test_yaml/our_testcase.yaml --mul_region_mode --mul_grad 10 --mul_optim 50 --gaus 0 &
+# wait

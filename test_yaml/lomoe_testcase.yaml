@@ -1,0 +1,1491 @@
+- init_img: ../Dataset/LoMOE-Bench/images/0/init_image.png
+  img_num: 0
+  source_prompt: two dogs sitting in the grass
+  target_prompts:
+  - a cute kitten and a baby leopard sitting in the grass
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/0/mask_1.png
+  - token_indices:
+    - 5
+    - 6
+    - 7
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/0/mask_2.png
+
+- init_img: ../Dataset/LoMOE-Bench/images/1/init_image.png
+  img_num: 1
+  source_prompt: two birds sitting on a branch
+  target_prompts:
+  - a crochet bird and a origami bird perched on a tree branch
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/1/mask_1.png
+  - token_indices:
+    - 5
+    - 6
+    - 7
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/1/mask_2.png
+
+#* - - - appearance editing - - - #
+- init_img: ../Dataset/LoMOE-Bench/images/2/init_image.png
+  img_num: 2
+  source_prompt: four black chairs in a room
+  target_prompts:
+  - a room with a table, with blue and red chairs, and a white board
+  mask_token_groups:
+  - token_indices:
+    - 9
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/2/mask_1.png
+  - token_indices:
+    - 7
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/2/mask_2.png
+  - token_indices:
+    - 7
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/2/mask_3.png
+  - token_indices:
+    - 9
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/2/mask_4.png
+    
+- init_img: ../Dataset/LoMOE-Bench/images/3/init_image.png
+  img_num: 3
+  source_prompt: a group of horses in a gym
+  target_prompts:
+  - a group of horses and zebras standing in a gym
+  mask_token_groups:
+  - token_indices:
+    - 6
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/3/mask_1.png
+    - ../Dataset/LoMOE-Bench/images/3/mask_2.png
+
+- init_img: ../Dataset/LoMOE-Bench/images/4/init_image.png
+  img_num: 4
+  source_prompt: a wall with paintings of dogs on it
+  target_prompts:
+  - a row of paintings of a cat, a tiger, a wolf on a wall
+  mask_token_groups:
+  - token_indices:
+    - 6
+    - 7
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/4/mask_1.png
+  - token_indices:
+    - 9
+    - 10
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/4/mask_2.png
+  - token_indices:
+    - 12
+    - 13
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/4/mask_3.png
+#
+#* - - - background editing - - - #
+- init_img: ../Dataset/LoMOE-Bench/images/5/init_image.png
+  img_num: 5
+  source_prompt: a dog and a cat are looking over a white wall
+  target_prompts:
+  - a dog and a cat are looking over a sign
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/5/mask_1.png
+  - token_indices:
+    - 4
+    - 5
+    - 6
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/5/mask_2.png
+#* - - - - - - - - - - - - - - - - #
+
+- init_img: ../Dataset/LoMOE-Bench/images/6/init_image.png
+  img_num: 6
+  source_prompt: five green apples in front of a white background
+  target_prompts:
+  - a group of green apples, blue apples, custard apple, an orange
+  mask_token_groups:
+  - token_indices:
+    - 7
+    - 8
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/6/mask_2.png
+  - token_indices:
+    - 10
+    - 11
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/6/mask_3.png
+  - token_indices:
+    - 13
+    - 14
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/6/mask_4.png
+    
+- init_img: ../Dataset/LoMOE-Bench/images/7/init_image.png
+  img_num: 7
+  source_prompt: A cat and a dog are sitting in front of a white background
+  target_prompts:
+  - a tiger cub and a bear sitting next to each other
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/7/mask_1.png
+  - token_indices:
+    - 5
+    - 6
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/7/mask_2.png
+#* - - - appearance editing - - - #    
+- init_img: ../Dataset/LoMOE-Bench/images/8/init_image.png
+  img_num: 8
+  source_prompt: two gnomes with hats in front of cotton balls
+  target_prompts:
+  - a gnome with a green hat and a gnome with a blue hat in front of yellow cotton
+    balls
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/8/mask_1.png
+  - token_indices:
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/8/mask_2.png
+  - token_indices:
+    - 17
+    - 18
+    - 19
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/8/mask_3.png
+    
+- init_img: ../Dataset/LoMOE-Bench/images/9/init_image.png
+  img_num: 9
+  source_prompt: a flower with petals and disc florets on a stem
+  target_prompts:
+  - a red flower with a brown disc floret and a thorny stem
+  mask_token_groups:
+  - token_indices:
+    - 10
+    - 11
+    - 12
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/9/mask_1.png
+  - token_indices:
+    - 6
+    - 7
+    - 8
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/9/mask_2.png
+  - token_indices: 
+    - 1
+    - 2
+    - 3
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/9/mask_3.png
+
+- init_img: ../Dataset/LoMOE-Bench/images/10/init_image.png
+  img_num: 10
+  source_prompt: four macarons are on a napkin
+  target_prompts:
+  - a chocolate macaroon and a chocopie and a white macorron and a pink macaroon is on a napkin
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/10/mask_1.png
+  - token_indices:
+    - 5
+    - 6
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/10/mask_2.png
+  - token_indices:
+    - 8
+    - 9
+    - 10
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/10/mask_3.png
+  - token_indices:
+    - 12
+    - 13
+    - 14
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/10/mask_4.png
+
+- init_img: ../Dataset/LoMOE-Bench/images/11/init_image.png
+  img_num: 11
+  source_prompt: a bowl of green apples are on a table
+  target_prompts:
+  - a wooden bowl with a red apple, an orange and a custard apple on top of green apples
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/11/mask_1.png
+  - token_indices:
+    - 5
+    - 6
+    - 7
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/11/mask_2.png
+  - token_indices:
+    - 9
+    - 10
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/11/mask_3.png
+  - token_indices:
+    - 12
+    - 13
+    - 14
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/11/mask_4.png
+
+- init_img: ../Dataset/LoMOE-Bench/images/12/init_image.png
+  img_num: 12 
+  source_prompt: a table with a white frosted cake topped by berries along with stacked white plates #TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:
+  target_prompts:
+  - a table with a pink frosted cake topped by chocolate cake truffles along with a real jar of candies in the back
+  mask_token_groups:
+  - token_indices:
+    - 4
+    - 5
+    - 6
+    - 7
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/12/mask_1.png
+  - token_indices:
+    - 10
+    - 11
+    - 12
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/12/mask_2.png
+  - token_indices:
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/12/mask_3.png
+
+- init_img: ../Dataset/LoMOE-Bench/images/13/init_image.png
+  img_num: 13
+  source_prompt: a white bowl of bean chili, rice, and broccoli #TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:
+  target_prompts:
+  - a white bowl of red sauce pasta, mashed potatoes and meatballs
+  mask_token_groups:
+  - token_indices:
+    - 12
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/13/mask_1.png
+  - token_indices:
+    - 5
+    - 6
+    - 7
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/13/mask_2.png
+  - token_indices:
+    - 9
+    - 10
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/13/mask_3.png
+
+- init_img: ../Dataset/LoMOE-Bench/images/14/init_image.png
+  img_num: 14
+  source_prompt: four cats are eating cupcakes on a plate
+  target_prompts:
+  - an orange dogs and a real dog eating dog food on a plate
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/14/mask_1.png
+  - token_indices:
+    - 5
+    - 6
+    - 7
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/14/mask_2.png
+  - token_indices:
+    - 9
+    - 10
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/14/mask_3.png
+
+- init_img: ../Dataset/LoMOE-Bench/images/15/init_image.png
+  img_num: 15
+  source_prompt: three zebras standing in a field
+  target_prompts:
+  - front view of a horse and donkey and a mule walking
+  mask_token_groups:
+  - token_indices:
+    - 4
+    - 5
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/15/mask_1.png
+  - token_indices:
+    - 7
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/15/mask_2.png
+  - token_indices:
+    - 9
+    - 10
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/15/mask_3.png
+
+- init_img: ../Dataset/LoMOE-Bench/images/16/init_image.png
+  img_num: 16
+  source_prompt: a wooden lama and two wooden spoons #TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:
+  target_prompts:
+  - a crochet llama on a wooden fork next to a whisk
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/16/mask_1.png
+  - token_indices:
+    - 5
+    - 6
+    - 7
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/16/mask_2.png
+  - token_indices:
+    - 10
+    - 11
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/16/mask_3.png
+
+- init_img: ../Dataset/LoMOE-Bench/images/17/init_image.png
+  img_num: 17
+  source_prompt: two zebras on a grassy field #TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:
+  target_prompts:
+  - a horse and a pink pony in a lawn
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/17/mask_1.png
+  - token_indices:
+    - 4
+    - 5
+    - 6
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/17/mask_2.png
+
+- init_img: ../Dataset/LoMOE-Bench/images/18/init_image.png
+  img_num: 18
+  source_prompt: an airplane and the moon in the sky #TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:
+  target_prompts:
+  - a spaceship and sun with falling stars in space
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/18/mask_1.png
+  - token_indices:
+    - 4
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/18/mask_2.png
+  - token_indices:
+    - 6
+    - 7
+    - 8
+    - 9
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/18/mask_3.png
+
+- init_img: ../Dataset/LoMOE-Bench/images/19/init_image.png
+  img_num: 19
+  source_prompt: two cars #TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:  
+  target_prompts:
+  - a cybertruck and sports car on the road in traffic
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/19/mask_1.png
+  - token_indices:
+    - 4
+    - 5
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/19/mask_2.png
+
+- init_img: ../Dataset/LoMOE-Bench/images/20/init_image.png
+  img_num: 20
+  source_prompt: three hotdogs with sauces #TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO: 
+  target_prompts:
+  - three hotdogs with a red sauce , green sauce and white sauce
+  mask_token_groups:
+  - token_indices:
+    - 4
+    - 5
+    - 6
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/20/mask_1.png
+  - token_indices:
+    - 8
+    - 9
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/20/mask_2.png
+  - token_indices:
+    - 11
+    - 12
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/20/mask_3.png
+
+
+- init_img: ../Dataset/LoMOE-Bench/images/21/init_image.png
+  img_num: 21
+  source_prompt: two cats sleeping on a couch
+  target_prompts:
+  - a dog and a tiger cub sleeping with a cat toy next to them
+  mask_token_groups:
+  - token_indices:
+    - 9
+    - 10
+    - 11
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/21/mask_1.png
+  - token_indices:
+    - 4
+    - 5
+    - 6
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/21/mask_2.png
+  - token_indices:
+    - 1
+    - 2
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/21/mask_3.png
+    
+- init_img: ../Dataset/LoMOE-Bench/images/22/init_image.png
+  img_num: 22
+  source_prompt: sheeps are standing on a grassy hillside
+  target_prompts:
+  - sheeps and a real mountain goat and a real german shepard standing on a grassy hillside
+  mask_token_groups:
+  - token_indices:
+    - 3
+    - 4
+    - 5
+    - 6
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/22/mask_1.png
+  - token_indices:
+    - 8
+    - 9
+    - 10
+    - 11
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/22/mask_2.png
+
+- init_img: ../Dataset/LoMOE-Bench/images/23/init_image.png
+  img_num: 23
+  source_prompt: a pineapple beside an incense holder beside a bowl of oranges  #TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:
+  target_prompts:
+  - a vase of flowers next to a penstand with pens next to a bowl of oranges with
+    a hand grenade on top
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    - 4
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/23/mask_1.png
+  - token_indices:
+    - 7
+    - 8
+    - 9
+    - 10
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/23/mask_2.png
+  - token_indices:
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/23/mask_3.png
+
+- init_img: ../Dataset/LoMOE-Bench/images/24/init_image.png
+  img_num: 24
+  source_prompt: two elephants #TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:
+  target_prompts:
+  - a baby origami elephant under a stone statue of an elephant
+  mask_token_groups:
+  - token_indices:
+    - 6
+    - 7
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/24/mask_1.png
+  - token_indices:
+    - 8
+    - 9
+    - 10
+    - 11
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/24/mask_2.png
+ #! yaml 고치기 여기부터!!!   
+- init_img: ../Dataset/LoMOE-Bench/images/25/init_image.png
+  img_num: 25
+  source_prompt: four umbrellas
+  target_prompts:
+  - four blue umbrellas at the beach
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/25/mask_1.png
+    - ../Dataset/LoMOE-Bench/images/25/mask_2.png
+    - ../Dataset/LoMOE-Bench/images/25/mask_3.png
+    - ../Dataset/LoMOE-Bench/images/25/mask_4.png
+- init_img: ../Dataset/LoMOE-Bench/images/26/init_image.png
+  img_num: 26
+  source_prompt: four donuts
+  target_prompts:
+  - a pink frosted donut, a vanilla frosted donut, a chocolate frosted donut and a
+    donut with sprinkles among normal donuts
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    - 4
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/26/mask_1.png
+  - token_indices:
+    - 6
+    - 7
+    - 8
+    - 9
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/26/mask_2.png
+  - token_indices:
+    - 11
+    - 12
+    - 13
+    - 14
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/26/mask_3.png
+  - token_indices:
+    - 16
+    - 17
+    - 18
+    - 19
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/26/mask_4.png
+- init_img: ../Dataset/LoMOE-Bench/images/27/init_image.png
+  img_num: 27
+  source_prompt: four barstools beside a table and a basket on the table
+  target_prompts:
+  - two barstools with a green cushion, two barstools with a blue cushion beside a
+    table and a steel basket with fruits on the table
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/27/mask_1.png
+    - ../Dataset/LoMOE-Bench/images/27/mask_4.png
+  - token_indices:
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/27/mask_2.png
+    - ../Dataset/LoMOE-Bench/images/27/mask_3.png
+  - token_indices:
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/27/mask_5.png
+- init_img: ../Dataset/LoMOE-Bench/images/28/init_image.png
+  img_num: 28
+  source_prompt: a cow and a window, a round mirror and a bed in the background
+  target_prompts:
+  # - a crochet cow and a window, a round mirror and a bed in the background
+  - a crochet cow with and a television, a clock and a bed in the background
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/28/mask_2.png
+  - token_indices:
+    - 6
+    - 7
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/28/mask_1.png
+  - token_indices:
+    - 9
+    - 10
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/28/mask_3.png
+- init_img: ../Dataset/LoMOE-Bench/images/29/init_image.png
+  img_num: 29
+  source_prompt: three dogs are sitting on a wooden bench
+  target_prompts:
+  - a real cat, a real bear and a cheetah sitting on stairs
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/29/mask_1.png
+  - token_indices:
+    - 5
+    - 6
+    - 7
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/29/mask_2.png
+  - token_indices:
+    - 9
+    - 10
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/29/mask_3.png
+- init_img: ../Dataset/LoMOE-Bench/images/30/init_image.png
+  img_num: 30
+  source_prompt: two zebras in a field
+  target_prompts:
+  - a lego horse and an origami horse grazing in a field
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/30/mask_1.png
+  - token_indices:
+    - 5
+    - 6
+    - 7
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/30/mask_2.png
+- init_img: ../Dataset/LoMOE-Bench/images/31/init_image.png
+  img_num: 31
+  source_prompt: a white frosted cake topped with strawberries
+  target_prompts:
+  - a white frosted cake topped with four ferrero rocher and a walnut
+  mask_token_groups:
+  - token_indices:
+    - 7
+    - 8
+    - 9
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/31/mask_1.png
+    - ../Dataset/LoMOE-Bench/images/31/mask_2.png
+    - ../Dataset/LoMOE-Bench/images/31/mask_4.png
+    - ../Dataset/LoMOE-Bench/images/31/mask_5.png
+  - token_indices:
+    - 11
+    - 12
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/31/mask_3.png
+- init_img: ../Dataset/LoMOE-Bench/images/32/init_image.png
+  img_num: 32
+  source_prompt: a white plate with broccoli, steak, and potatoes along with a table fork
+  target_prompts:
+  - a white plate with rice, cooked fish and sushi with a table knife
+  mask_token_groups:
+  - token_indices:
+    - 5
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/32/mask_1.png
+  - token_indices:
+    - 7
+    - 8
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/32/mask_2.png
+  - token_indices:
+    - 10
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/32/mask_3.png
+  - token_indices:
+    - 12
+    - 13
+    - 14
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/32/mask_4.png
+- init_img: ../Dataset/LoMOE-Bench/images/33/init_image.png
+  img_num: 33
+  source_prompt: two sofas
+  target_prompts:
+  - a living room with a lego sofa and a black sofa
+  mask_token_groups:
+  - token_indices:
+    - 5
+    - 6
+    - 7
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/33/mask_1.png
+  - token_indices:
+    - 9
+    - 10
+    - 11
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/33/mask_2.png
+- init_img: ../Dataset/LoMOE-Bench/images/34/init_image.png
+  img_num: 34
+  source_prompt: four cushions on a sofa and a white wall
+  target_prompts:
+  - two dark blue cushions and two light blue cushions on a black leather sofa and a white wall
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    - 4
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/34/mask_1.png
+    - ../Dataset/LoMOE-Bench/images/34/mask_3.png
+  - token_indices:
+    - 6
+    - 7
+    - 8
+    - 9
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/34/mask_2.png
+    - ../Dataset/LoMOE-Bench/images/34/mask_4.png
+  - token_indices:
+    - 11
+    - 12
+    - 13
+    - 14
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/34/mask_5.png
+- init_img: ../Dataset/LoMOE-Bench/images/35/init_image.png
+  img_num: 35
+  source_prompt: a juice and a flower vase on a table near a window overseeing the streets
+  target_prompts:
+  - a pickle jar and a firecracker on a table near a window overseeing the streets
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/35/mask_1.png
+  - token_indices:
+    - 5
+    - 6
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/35/mask_2.png
+- init_img: ../Dataset/LoMOE-Bench/images/36/init_image.png
+  img_num: 36
+  source_prompt: a tree with cotton balls on top of a cloud covered island
+  target_prompts:
+  - a tree with a violet coloured cotton ball, an indigo coloured cotton ball, a blue coloured cotton ball,
+   a dark green coloured cotton ball, a light yellow coloured cotton ball, an orange coloured cotton ball and 
+   a red coloured cotton ball on top of a cloud covered island
+  mask_token_groups:
+  - token_indices:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/36/mask_1.png
+  - token_indices:
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/36/mask_2.png
+  - token_indices:
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/36/mask_3.png
+  - token_indices:
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    - 27
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/36/mask_4.png
+  - token_indices:
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/36/mask_5.png
+  - token_indices:
+    - 36
+    - 37
+    - 38
+    - 39
+    - 40
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/36/mask_6.png
+  - token_indices:
+    - 42
+    - 43
+    - 44
+    - 45
+    - 46
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/36/mask_7.png
+- init_img: ../Dataset/LoMOE-Bench/images/37/init_image.png
+  img_num: 37
+  source_prompt: cherry tomatoes, a wooden spoon, a kitchen towel, and uncooked spaghetti on a wooden table
+  target_prompts:
+  - grapes, a blueberry, a steel spoon, a checkered table cloth and plastic straws on a
+    wooden table
+  mask_token_groups:
+  - token_indices:
+    - 1
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/37/mask_1.png
+  - token_indices:
+    - 3
+    - 4
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/37/mask_2.png
+  - token_indices:
+    - 15
+    - 16
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/37/mask_3.png
+  - token_indices:
+    - 10
+    - 11
+    - 12
+    - 13
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/37/mask_4.png
+  - token_indices:
+    - 6
+    - 7
+    - 8
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/37/mask_5.png
+- init_img: ../Dataset/LoMOE-Bench/images/38/init_image.png
+  img_num: 38
+  source_prompt: two crocheted pizza slices on a plate
+  target_prompts:
+  - two real slices of pizza on a plate
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/38/mask_1.png
+    - ../Dataset/LoMOE-Bench/images/38/mask_2.png
+- init_img: ../Dataset/LoMOE-Bench/images/39/init_image.png
+  img_num: 39
+  source_prompt: stones stacked on top of each other
+  target_prompts:
+  - a violet coloured stone, an indigo coloured stone, a blue coloured stone, 
+    a dark green coloured stone, a light yellow coloured stone, an orange coloured stone and 
+    a red coloured stone stacked on top of each other
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    - 4
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/39/mask_1.png
+  - token_indices:
+    - 6
+    - 7
+    - 8
+    - 9
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/39/mask_2.png
+  - token_indices:
+    - 11
+    - 12
+    - 13
+    - 14
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/39/mask_3.png
+  - token_indices:
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/39/mask_4.png
+  - token_indices:
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/39/mask_5.png
+  - token_indices:
+    - 28
+    - 29
+    - 30
+    - 31
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/39/mask_6.png
+  - token_indices:
+    - 33
+    - 34
+    - 35
+    - 36
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/39/mask_7.png
+- init_img: ../Dataset/LoMOE-Bench/images/40/init_image.png
+  img_num: 40
+  source_prompt: a painting of a violin and a torn sheet of music
+  target_prompts:
+  - a painting of an electric guitar and a sheet of music
+  mask_token_groups:
+  - token_indices:
+    - 4
+    - 5
+    - 6
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/40/mask_1.png
+  - token_indices:
+    - 8
+    - 9
+    - 10
+    - 11
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/40/mask_2.png
+- init_img: ../Dataset/LoMOE-Bench/images/41/init_image.png
+  img_num: 41
+  source_prompt: a colourful sketch of a group of penguins at the sea
+  target_prompts:
+  - a colourful sketch of a brown penguin and a colourful sketch of a black and white penguin at the sea
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/41/mask_1.png
+  - token_indices:
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/41/mask_2.png
+- init_img: ../Dataset/LoMOE-Bench/images/42/init_image.png
+  img_num: 42
+  source_prompt: two red armchairs in a living room with fruits on the table
+  target_prompts:
+  - a red beanbag and a black leather sofa in a living room with fruits on the table
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/42/mask_2.png
+  - token_indices:
+    - 5
+    - 6
+    - 7
+    - 8
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/42/mask_1.png
+  - token_indices:
+    - 14
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/42/mask_3.png
+- init_img: ../Dataset/LoMOE-Bench/images/43/init_image.png
+  img_num: 43
+  source_prompt: a living room with a cushion, a tall potted plant, and a painting of a colorful tree
+  target_prompts:
+  - a living room with a cloud, a lamp and a painting of the mona lisa
+  mask_token_groups:
+  - token_indices:
+    - 5
+    - 6
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/43/mask_3.png
+  - token_indices:
+    - 8
+    - 9
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/43/mask_2.png
+  - token_indices:
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/43/mask_1.png
+- init_img: ../Dataset/LoMOE-Bench/images/44/init_image.png
+  img_num: 44
+  source_prompt: a zebra and a brown horse and a donkey
+  target_prompts:
+  - a horse, a golden fire horse and a zebra
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/44/mask_1.png
+  - token_indices:
+    - 4
+    - 5
+    - 6
+    - 7
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/44/mask_2.png
+  - token_indices:
+    - 9
+    - 10
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/44/mask_3.png
+- init_img: ../Dataset/LoMOE-Bench/images/45/init_image.png
+  img_num: 45
+  source_prompt: a bear holding a tree in the wild
+  target_prompts:
+  - a panda holding bamboo sticks in the wild
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/45/mask_1.png
+  - token_indices:
+    - 4
+    - 5
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/45/mask_2.png
+- init_img: ../Dataset/LoMOE-Bench/images/46/init_image.png
+  img_num: 46
+  source_prompt: a teddy bear wearing a sweater with a flower on its head
+  target_prompts:
+  - a teddy bear wearing a pink woolen dress with a red flower on its head
+  mask_token_groups:
+  - token_indices:
+    - 5
+    - 6
+    - 7
+    - 8
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/46/mask_1.png
+  - token_indices:
+    - 10
+    - 11
+    - 12
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/46/mask_2.png
+- init_img: ../Dataset/LoMOE-Bench/images/47/init_image.png
+  img_num: 47
+  source_prompt: two birds
+  target_prompts:
+  - a crochet bird and a origami bird perched on a tree branch
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/47/mask_1.png
+  - token_indices:
+    - 5
+    - 6
+    - 7
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/47/mask_2.png
+- init_img: ../Dataset/LoMOE-Bench/images/48/init_image.png
+  img_num: 48
+  source_prompt: four flags
+  target_prompts:
+  - a sketch of a castle with a pink flag, a purple flag, a blue flag and an orange flag
+  mask_token_groups:
+  - token_indices:
+    - 7
+    - 8 
+    - 9
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/48/mask_1.png
+  - token_indices:
+    - 11 
+    - 12 
+    - 13
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/48/mask_2.png
+  - token_indices:
+    - 15
+    - 16
+    - 17
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/48/mask_3.png
+  - token_indices:
+    - 19
+    - 20
+    - 21
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/48/mask_4.png
+- init_img: ../Dataset/LoMOE-Bench/images/49/init_image.png
+  img_num: 49
+  source_prompt: a sketch of a cat and a sketch of a rabbit with a green background
+  target_prompts:
+  - a sketch of a dog and a sketch of a squirrel with a green background
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/49/mask_1.png
+  - token_indices:
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/49/mask_2.png
+- init_img: ../Dataset/LoMOE-Bench/images/50/init_image.png
+  img_num: 50
+  source_prompt: a man dancing and a woman dancing in a kitchen
+  target_prompts:
+  - a robot dancing and a zombie dancing in a kitchen
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/50/mask_1.png
+  - token_indices:
+    - 5
+    - 6
+    - 7
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/50/mask_2.png
+- init_img: ../Dataset/LoMOE-Bench/images/51/init_image.png
+  img_num: 51
+  source_prompt: two spades
+  target_prompts:
+  - a queen of spades and an ace of hearts
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    - 4
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/51/mask_1.png
+  - token_indices:
+    - 6
+    - 7
+    - 8
+    - 9
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/51/mask_2.png
+- init_img: ../Dataset/LoMOE-Bench/images/52/init_image.png
+  img_num: 52
+  source_prompt: three purses
+  target_prompts:
+  - a wallet, a mobile phone, a pair of earrings and a pen on a table
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/52/mask_1.png
+  - token_indices:
+    - 4
+    - 5
+    - 6
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/52/mask_2.png
+  - token_indices:
+    - 8
+    - 9
+    - 10
+    - 11
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/52/mask_3.png
+- init_img: ../Dataset/LoMOE-Bench/images/53/init_image.png
+  img_num: 53
+  source_prompt: four petals
+  target_prompts:
+  - a flower with alternate blue petals and red petals
+  mask_token_groups:
+  - token_indices:
+    - 5 
+    - 6
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/53/mask_1.png
+    - ../Dataset/LoMOE-Bench/images/53/mask_2.png
+    - ../Dataset/LoMOE-Bench/images/53/mask_3.png
+    - ../Dataset/LoMOE-Bench/images/53/mask_4.png
+- init_img: ../Dataset/LoMOE-Bench/images/54/init_image.png
+  img_num: 54
+  source_prompt: a volleyball and flip-flops and sunglasses in the sand
+  target_prompts:
+  - a football, a football shoe and sunglasses in the sand
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/54/mask_1.png
+  - token_indices:
+    - 4
+    - 5
+    - 6
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/54/mask_2.png
+- init_img: ../Dataset/LoMOE-Bench/images/55/init_image.png
+  img_num: 55
+  source_prompt: two cubes
+  target_prompts:
+  - a comb, a solved rubiks cube and a pack of cards on a table
+  mask_token_groups:
+  - token_indices:
+    - 4
+    - 5
+    - 6
+    - 7
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/55/mask_1.png
+  - token_indices:
+    - 9
+    - 10
+    - 11
+    - 12
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/55/mask_2.png
+- init_img: ../Dataset/LoMOE-Bench/images/56/init_image.png
+  img_num: 56
+  source_prompt: two rubber ducks on a table
+  target_prompts:
+  - an origami duck and a crochet duck on wooden table
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/56/mask_2.png
+  - token_indices:
+    - 5
+    - 6
+    - 7
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/56/mask_1.png
+- init_img: ../Dataset/LoMOE-Bench/images/57/init_image.png
+  img_num: 57
+  source_prompt: two wings
+  target_prompts:
+  - a butterfly with a blue butterfly wing and a red butterfly wing
+  mask_token_groups:
+  - token_indices:
+    - 4
+    - 5
+    - 6
+    - 7
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/57/mask_1.png
+  - token_indices:
+    - 9
+    - 10
+    - 11
+    - 12
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/57/mask_2.png
+- init_img: ../Dataset/LoMOE-Bench/images/58/init_image.png
+  img_num: 58
+  source_prompt: two shakers
+  target_prompts:
+  - a salt shacker and a pepper shacker on the table
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/58/mask_2.png
+  - token_indices:
+    - 5
+    - 6
+    - 7
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/58/mask_1.png
+- init_img: ../Dataset/LoMOE-Bench/images/59/init_image.png
+  img_num: 59
+  source_prompt: three shoes
+  target_prompts:
+  - a formal shoes, a sandals, casual shoes and a black show in a circle
+  mask_token_groups:
+  - token_indices:
+    - 2
+    - 3
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/59/mask_1.png
+  - token_indices:
+    - 6
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/59/mask_2.png
+  - token_indices:
+    - 8
+    - 9
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/59/mask_3.png
+- init_img: ../Dataset/LoMOE-Bench/images/60/init_image.png
+  img_num: 60
+  source_prompt: three iPhones
+  target_prompts:
+  - a calculator, a baton and polaroid of a man on a wooden table
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/60/mask_1.png
+  - token_indices:
+    - 4
+    - 5
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/60/mask_2.png
+  - token_indices:
+    - 7
+    - 8
+    - 9
+    - 10
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/60/mask_3.png
+- init_img: ../Dataset/LoMOE-Bench/images/61/init_image.png
+  img_num: 61
+  source_prompt: three pumpkins
+  target_prompts:
+  - three carved halloween pumpkins in front of a vase with purple flowers
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    - 4
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/61/mask_1.png
+    - ../Dataset/LoMOE-Bench/images/61/mask_2.png
+    - ../Dataset/LoMOE-Bench/images/61/mask_3.png
+- init_img: ../Dataset/LoMOE-Bench/images/62/init_image.png
+  img_num: 62
+  source_prompt: two rusks
+  target_prompts:
+  - a banana and a brinjal
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/62/mask_2.png
+  - token_indices:
+    - 4
+    - 5
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/62/mask_1.png
+- init_img: ../Dataset/LoMOE-Bench/images/63/init_image.png
+  img_num: 63
+  source_prompt: a face of a rubiks cube with colorful squares
+  target_prompts:
+  - a face of a rubiks cube with three blue squares and two blue squares with a black border
+  mask_token_groups:
+  - token_indices:
+    - 8
+    - 9
+    - 10
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/63/mask_1.png
+    - ../Dataset/LoMOE-Bench/images/63/mask_2.png
+    - ../Dataset/LoMOE-Bench/images/63/mask_5.png
+  - token_indices:
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    mask_paths:
+    - ../Dataset/LoMOE-Bench/images/63/mask_3.png
+    - ../Dataset/LoMOE-Bench/images/63/mask_4.png

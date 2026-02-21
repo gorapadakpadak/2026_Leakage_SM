@@ -1,0 +1,573 @@
+  -
+    init_img:  ../Dataset/LoMOE-Bench/images/0/init_image.png
+    img_num: 0
+    source_prompt: two dogs sitting in the grass
+    # negative_prompt: a dog, blurry, low quality, text
+    target_prompts:
+    - a teddy bear and a bird are sitting in the grass
+    mask_token_groups:
+    - token_indices: [1,2,3]
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/0/mask_2.png
+    - token_indices: [5,6]
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/0/mask_1.png
+  # -
+  #   init_img:  ../Dataset/LoMOE-Bench/images/5/init_image.png
+  #   img_num: 5
+  #   source_prompt: a cat and dog are looking over a white wall
+
+  #   target_prompts:
+  #   -  a blue teddy bear and a white bird are looking over a white wall
+  #   mask_token_groups:
+  #   - token_indices: [1,2,3,4]
+  #     mask_paths:
+  #       - ../Dataset/LoMOE-Bench/images/5/mask_2.png
+  #   - token_indices: [5,6,7]
+  #     mask_paths:
+  #       - ../Dataset/LoMOE-Bench/images/5/mask_1.png
+  # -
+  #   init_img:  ../Dataset/LoMOE-Bench/images/0/init_image.png
+  #   img_num: 0
+  #   source_prompt: two dogs sitting in the grass
+
+  #   target_prompts:
+  #   - a white teddy bear and a red bird are sitting in the grass
+  #   mask_token_groups:
+  #   - token_indices: [1,2,3,4]
+  #     mask_paths:
+  #       - ../Dataset/LoMOE-Bench/images/0/mask_2.png
+  #   - token_indices: [5,6,7]
+  #     mask_paths:
+  #       - ../Dataset/LoMOE-Bench/images/0/mask_1.png
+  # -
+  #   init_img:  ../Dataset/LoMOE-Bench/images/0/init_image.png
+  #   img_num: 0
+  #   source_prompt: two dogs sitting in the grass
+  #   # negative_prompt: a dog, blurry, low quality, text
+  #   target_prompts:
+  #   - a dog and a baby tiger are sitting in the grass
+  #   mask_token_groups:
+  #   # - token_indices: [1,2]
+  #   #   mask_paths:
+  #   #     - ../Dataset/LoMOE-Bench/images/0/mask_2.png
+  #   - token_indices: [4,5,6]
+  #     mask_paths:
+  #       - ../Dataset/LoMOE-Bench/images/0/mask_1.png
+  
+  -
+    init_img:  ../Dataset/LoMOE-Bench/images/0/init_image.png
+    img_num: 0
+    source_prompt: two dogs sitting in the grass
+    # negative_prompt: a dog, blurry, low quality, text
+    target_prompts:
+    - a dog and a teddy bear are sitting in the grass
+    mask_token_groups:
+    # - token_indices: [1,2]
+    #   mask_paths:
+    #     - ../Dataset/LoMOE-Bench/images/0/mask_2.png
+    - token_indices: [4,5,6]
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/0/mask_1.png
+
+  -
+    init_img:  ../Dataset/LoMOE-Bench/images/1/init_image.png
+    img_num: 1
+    source_prompt:  two birds sitting on a branch
+    # negative_prompt: two birds, blurry, low quality, text
+
+    target_prompts:
+    -  a teddy bear and a cat are sitting on a branch
+    mask_token_groups:
+    - token_indices: [1,2,3] #왼 
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/1/mask_2.png
+    - token_indices: [5,6] #오
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/1/mask_1.png
+
+  -
+    init_img:  ../Dataset/LoMOE-Bench/images/4/init_image.png
+    img_num: 4
+    source_prompt:   a wall with paintings of dogs on it
+    # negative_prompt: dogs, blurry, low quality, text
+    target_prompts:
+    -   a wall with paintings of two birds and a rabbit and a dog on it
+    
+    mask_token_groups:
+    - token_indices: [6, 7]
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/4/mask_1.png
+        - ../Dataset/LoMOE-Bench/images/4/mask_3.png
+    - token_indices: [9, 10]
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/4/mask_2.png
+ 
+  -
+    init_img:  ../Dataset/LoMOE-Bench/images/5/init_image.png
+    img_num: 5
+    source_prompt: a cat and dog are looking over a white wall
+    # negative_prompt: a dog,a cat, blurry, low quality, text
+    target_prompts:
+    -  a teddy bear and a bird are looking over a white wall
+    mask_token_groups:
+    - token_indices: [1,2,3]
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/5/mask_2.png
+    - token_indices: [5,6]
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/5/mask_1.png
+  -
+    init_img:  ../Dataset/LoMOE-Bench/images/6/init_image.png
+    img_num: 6
+    source_prompt: five green apples in front of a white background
+    # negative_prompt: green apples, blurry, low quality, text
+    target_prompts:
+    -  two kiwis and two teddy bears and an apple in front of a white background
+    mask_token_groups:
+    - token_indices: [1,2]
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/6/mask_1.png
+        - ../Dataset/LoMOE-Bench/images/6/mask_4.png
+    - token_indices: [4,5,6]
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/6/mask_2.png
+        - ../Dataset/LoMOE-Bench/images/6/mask_3.png
+  # -
+  #   init_img:  ../Dataset/LoMOE-Bench/images/6/init_image.png
+  #   img_num: 6
+  #   source_prompt: five green apples in front of a white background
+  #   # negative_prompt: green apples, blurry, low quality, text
+
+  #   target_prompts:
+  #   -  two mangos and two oranges and an apple in front of a white background
+  #   mask_token_groups:
+  #   - token_indices: [1,2]
+  #     mask_paths:
+  #       - ../Dataset/LoMOE-Bench/images/6/mask_1.png
+  #       - ../Dataset/LoMOE-Bench/images/6/mask_4.png
+  #   - token_indices: [4,5]
+  #     mask_paths:
+  #       - ../Dataset/LoMOE-Bench/images/6/mask_2.png
+  #       - ../Dataset/LoMOE-Bench/images/6/mask_3.png
+ 
+  -
+    init_img:  ../Dataset/LoMOE-Bench/images/6/init_image.png
+    img_num: 6
+    source_prompt: five green apples in front of a white background
+    # negative_prompt: green apples, blurry, low quality, text
+    target_prompts:
+    -  two tennis balls and two teddy bears and an apple in front of a white background
+    mask_token_groups:
+    - token_indices: [1,2,3]
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/6/mask_1.png
+        - ../Dataset/LoMOE-Bench/images/6/mask_4.png
+    - token_indices: [5,6,7]
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/6/mask_2.png
+        - ../Dataset/LoMOE-Bench/images/6/mask_3.png
+
+  -
+    init_img:  ../Dataset/LoMOE-Bench/images/6/init_image.png
+    img_num: 6
+    source_prompt: five green apples in front of a white background
+    # negative_prompt: green apples, blurry, low quality, text
+    target_prompts:
+    -  four oranges and an apple in front of a white background
+    mask_token_groups:
+    - token_indices: [1,2]
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/6/mask_1.png
+        - ../Dataset/LoMOE-Bench/images/6/mask_4.png
+        - ../Dataset/LoMOE-Bench/images/6/mask_2.png
+        - ../Dataset/LoMOE-Bench/images/6/mask_3.png
+  -
+    init_img:  ../Dataset/LoMOE-Bench/images/6/init_image.png
+    img_num: 6
+    source_prompt: five green apples in front of a white background
+    # negative_prompt: green apples, blurry, low quality, text
+
+    target_prompts:
+    -  four tennis balls and an apple in front of a white background
+    mask_token_groups:
+    - token_indices: [1,2,3]
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/6/mask_1.png
+        - ../Dataset/LoMOE-Bench/images/6/mask_4.png
+        - ../Dataset/LoMOE-Bench/images/6/mask_2.png
+        - ../Dataset/LoMOE-Bench/images/6/mask_3.png 
+  -
+    init_img:  ../Dataset/LoMOE-Bench/images/6/init_image.png
+    img_num: 6
+    source_prompt: five green apples in front of a white background
+    # negative_prompt: green apples, blurry, low quality, text
+    target_prompts:
+    -  four teddy bears and an apple in front of a white background
+    mask_token_groups:
+    - token_indices: [1,2,3]
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/6/mask_1.png
+        - ../Dataset/LoMOE-Bench/images/6/mask_4.png
+        - ../Dataset/LoMOE-Bench/images/6/mask_2.png
+        - ../Dataset/LoMOE-Bench/images/6/mask_3.png    
+  # -
+  #   init_img:  ../Dataset/LoMOE-Bench/images/6/init_image.png
+  #   img_num: 6
+  #   source_prompt: five green apples in front of a white background 
+
+  #   target_prompts:
+  #   -  two peaches and two teddy bears and an apple in front of a white background 
+  #   mask_token_groups:
+  #   - token_indices: [1,2]
+  #     mask_paths:
+  #       - ../Dataset/LoMOE-Bench/images/6/mask_1.png
+  #       - ../Dataset/LoMOE-Bench/images/6/mask_4.png
+  #   - token_indices: [4,5,6]
+  #     mask_paths:
+  #       - ../Dataset/LoMOE-Bench/images/6/mask_2.png
+  #       - ../Dataset/LoMOE-Bench/images/6/mask_3.png
+  # -
+  #   init_img:  ../Dataset/LoMOE-Bench/images/6/init_image.png
+  #   img_num: 6
+  #   source_prompt: five green apples in front of a white background 
+
+  #   target_prompts:
+  #   -  two pears and two teddy bears and an apple in front of a white background 
+  #   mask_token_groups:
+  #   - token_indices: [1,2]
+  #     mask_paths:
+  #       - ../Dataset/LoMOE-Bench/images/6/mask_1.png
+  #       - ../Dataset/LoMOE-Bench/images/6/mask_4.png
+  #   - token_indices: [4,5,6]
+  #     mask_paths:
+  #       - ../Dataset/LoMOE-Bench/images/6/mask_2.png
+  #       - ../Dataset/LoMOE-Bench/images/6/mask_3.png
+  # -
+  #   init_img:  ../Dataset/LoMOE-Bench/images/6/init_image.png
+  #   img_num: 6
+  #   source_prompt: five green apples in front of a white background
+
+  #   target_prompts:
+  #   -  two pears and two teddy bears and an apple in front of a white background
+  #   mask_token_groups:
+  #   - token_indices: [1,2]
+  #     mask_paths:
+  #       - ../Dataset/LoMOE-Bench/images/6/mask_1.png
+  #       - ../Dataset/LoMOE-Bench/images/6/mask_4.png
+  #   - token_indices: [4,5,6]
+  #     mask_paths:
+  #       - ../Dataset/LoMOE-Bench/images/6/mask_2.png
+  #       - ../Dataset/LoMOE-Bench/images/6/mask_3.png
+  # -
+  #   init_img:  ../Dataset/LoMOE-Bench/images/6/init_image.png
+  #   img_num: 6
+  #   source_prompt: five green apples in front of a white background
+  #   # negative_prompt: green apples, blurry, low quality, text
+  #   target_prompts:
+  #   -  four peachs and an apple in front of a white background
+  #   mask_token_groups:
+  #   - token_indices: [1,2]
+  #     mask_paths:
+  #       - ../Dataset/LoMOE-Bench/images/6/mask_1.png
+  #       - ../Dataset/LoMOE-Bench/images/6/mask_4.png
+  #       - ../Dataset/LoMOE-Bench/images/6/mask_2.png
+  #       - ../Dataset/LoMOE-Bench/images/6/mask_3.png
+    
+  -
+    init_img:  ../Dataset/LoMOE-Bench/images/7/init_image.png
+    img_num: 7
+    source_prompt: A cat and a dog are sitting in front of a white background
+    # negative_prompt: a dog, a cat, blurry, low quality, text
+    target_prompts:
+    -  A teddy bear and a rabbit are sitting in front of a white background
+
+    mask_token_groups:
+    - token_indices: [1,2,3]
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/7/mask_1.png
+    - token_indices: [5,6]
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/7/mask_2.png
+
+  
+
+  # -
+  #   init_img:  ../Dataset/LoMOE-Bench/images/7/init_image.png
+  #   img_num: 7
+  #   source_prompt: A cat and a dog are sitting in front of a white background
+  #   # negative_prompt: a dog, a cat, blurry, low quality, text
+  #   target_prompts:
+  #   -  a rabbit and a teddy bear are sitting in front of a white background
+
+  #   mask_token_groups:
+  #   - token_indices: [1,2]
+  #     mask_paths:
+  #       - ../Dataset/LoMOE-Bench/images/7/mask_1.png
+  #   - token_indices: [4,5,6]
+  #     mask_paths:
+  #       - ../Dataset/LoMOE-Bench/images/7/mask_2.png
+
+  - #! prompt five -> four로 바꿈
+    init_img:  ../Dataset/LoMOE-Bench/images/10/init_image.png
+    img_num: 10
+    source_prompt: four macarons are on a white napkin
+    # negative_prompt: macarons, blurry, low quality, text
+    target_prompts:
+    -  four chopsticks are on a white napkin
+    mask_token_groups:
+    - token_indices: [1,2]
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/10/mask_1.png
+        - ../Dataset/LoMOE-Bench/images/10/mask_2.png
+        - ../Dataset/LoMOE-Bench/images/10/mask_3.png
+        - ../Dataset/LoMOE-Bench/images/10/mask_4.png
+  # - #! prompt five -> four로 바꿈
+  #   init_img:  ../Dataset/LoMOE-Bench/images/10/init_image.png
+  #   img_num: 10
+  #   source_prompt: four macarons are on a white napkin
+  #   # negative_prompt: macarons, blurry, low quality, text
+  #   target_prompts:
+  #   -  four cookies are on a white napkin
+  #   mask_token_groups:
+  #   - token_indices: [1,2]
+  #     mask_paths:
+  #       - ../Dataset/LoMOE-Bench/images/10/mask_1.png
+  #       - ../Dataset/LoMOE-Bench/images/10/mask_2.png
+  #       - ../Dataset/LoMOE-Bench/images/10/mask_3.png
+  #       - ../Dataset/LoMOE-Bench/images/10/mask_4.png
+  - #! prompt five -> four로 바꿈
+    init_img:  ../Dataset/LoMOE-Bench/images/10/init_image.png
+    img_num: 10
+    source_prompt: four macarons are on a white napkin
+    # negative_prompt: macarons, blurry, low quality, text
+    target_prompts:
+    -  a chocolate macaron and a vanila macaron and a strawberry macaron and a choco pie are on a white napkin
+    mask_token_groups:
+    - token_indices: [1,2,3]
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/10/mask_2.png
+    - token_indices: [5,6,7]
+      mask_paths:
+      - ../Dataset/LoMOE-Bench/images/10/mask_4.png
+    - token_indices: [9,10,11]
+      mask_paths:
+      - ../Dataset/LoMOE-Bench/images/10/mask_3.png
+    - token_indices: [13,14,15]
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/10/mask_1.png
+ 
+  # -
+  #   init_img:  ../Dataset/LoMOE-Bench/images/11/init_image.png
+  #   img_num: 11
+  #   source_prompt: a bowl of green apples are on a table
+  #   # negative_prompt: green apples, blurry, low quality, text
+  #   target_prompts: #! fruits -> mangos 그리고 토큰은 a bowl of mangos로 함
+  #   -  a bowl of mangos and apples are on a table
+
+  #   mask_token_groups:
+  #   - token_indices: [1,2,3,4]
+  #     mask_paths:
+  #       - ../Dataset/LoMOE-Bench/images/11/mask_2.png
+  #       - ../Dataset/LoMOE-Bench/images/11/mask_4.png
+  -
+    init_img:  ../Dataset/LoMOE-Bench/images/11/init_image.png
+    img_num: 11
+    source_prompt: a bowl of green apples are on a table
+    # negative_prompt: green apples, blurry, low quality, text
+    target_prompts: #! fruits -> mangos 그리고 토큰은 a bowl of mangos로 함
+    -  a bowl of oranges and apples are on a table
+
+    mask_token_groups:
+    - token_indices: [1,2,3,4]
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/11/mask_2.png
+        - ../Dataset/LoMOE-Bench/images/11/mask_4.png
+
+  -
+    init_img:  ../Dataset/LoMOE-Bench/images/14/init_image.png
+    img_num: 14
+    source_prompt:  four cats are eating cupcakes on a plate
+    # negative_prompt: cats, blurry, low quality, text
+    target_prompts: #! four rabbits -> two rabbits and two cats
+    # -   two rabbits and two cats are eating cupcakes on a plate
+    - two rabbits and two cats are eating cupcakes on a plate
+
+    mask_token_groups:
+    - token_indices: [1,2]
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/14/mask_1.png
+        - ../Dataset/LoMOE-Bench/images/14/mask_2.png
+  
+  # -
+    # init_img:  ../Dataset/LoMOE-Bench/images/15/init_image.png
+    # img_num: 15
+    # source_prompt:  three zebras standing in a field
+    # # negative_prompt: a zebras, blurry, low quality, text
+    # target_prompts:
+    # -  three teddy bears standing in a field
+
+    # mask_token_groups:
+    # - token_indices: [1,2,3]
+    #   mask_paths:
+    #     - ../Dataset/LoMOE-Bench/images/15/mask_1.png
+    #     - ../Dataset/LoMOE-Bench/images/15/mask_2.png
+    #     - ../Dataset/LoMOE-Bench/images/15/mask_3.png
+  -
+    init_img:  ../Dataset/LoMOE-Bench/images/15/init_image.png
+    img_num: 15
+    source_prompt:  three zebras are standing in a field
+    # negative_prompt: a zebras, blurry, low quality, text
+    target_prompts:
+    -  two horses and a cow are standing in a field
+
+    mask_token_groups:
+    - token_indices: [1,2]
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/15/mask_1.png
+        - ../Dataset/LoMOE-Bench/images/15/mask_3.png
+    - token_indices: [4,5]
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/15/mask_2.png
+
+
+
+  # -
+  #   init_img:  ../Dataset/LoMOE-Bench/images/21/init_image.png
+  #   img_num: 21
+  #   source_prompt: two cats sleeping on a couch
+  #   # negative_prompt: cats, blurry, low quality, text
+  #   target_prompts:
+  #   -   a dog and a bird sleeping on a couch
+  #   mask_token_groups:
+  #   - token_indices: [1,2]
+  #     mask_paths:
+  #       - ../Dataset/LoMOE-Bench/images/21/mask_2.png
+  #   - token_indices: [4,5]
+  #     mask_paths:
+  #       - ../Dataset/LoMOE-Bench/images/21/mask_3.png
+  -
+    init_img:  ../Dataset/LoMOE-Bench/images/21/init_image.png
+    img_num: 21
+    source_prompt: two cats sleeping on a couch
+    # negative_prompt: cats, blurry, low quality, text
+    target_prompts:
+    -   a dog and a teddy bear sleeping on a couch
+    mask_token_groups:
+    - token_indices: [1,2]
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/21/mask_2.png
+    - token_indices: [4,5,6]
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/21/mask_3.png
+  -
+    init_img:  ../Dataset/LoMOE-Bench/images/22/init_image.png
+    img_num: 22
+    source_prompt: sheeps are standing on a grassy hillside
+    # negative_prompt: sheep, blurry, low quality, text
+    target_prompts: #! 마스크 2개밖에 안 나옴!, a group of zebras 를 토큰으로 설정
+    -   sheeps and zebras are standing on a grassy hillside
+    mask_token_groups:
+    - token_indices: [3]
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/22/mask_1.png
+        - ../Dataset/LoMOE-Bench/images/22/mask_2.png
+
+  # -
+  #   init_img:  ../Dataset/LoMOE-Bench/images/29/init_image.png
+  #   img_num: 29
+  #   source_prompt:   three dogs are sitting on a wooden bench
+  #   # negative_prompt: dogs, blurry, low quality, text
+
+  #   target_prompts:
+  #   -    a teddy bear and a cat and a bird are sitting on a wooden bench
+  #   mask_token_groups:
+  #   - token_indices: [1,2,3]
+  #     mask_paths:
+  #       - ../Dataset/LoMOE-Bench/images/29/mask_2.png
+  #   - token_indices: [5,6]
+  #     mask_paths:
+  #       - ../Dataset/LoMOE-Bench/images/29/mask_1.png
+  #   - token_indices: [8,9]
+  #     mask_paths:
+  #       - ../Dataset/LoMOE-Bench/images/29/mask_3.png
+  -
+    init_img:  ../Dataset/LoMOE-Bench/images/29/init_image.png
+    img_num: 29
+    source_prompt:   three dogs are sitting on a wooden bench
+    # negative_prompt: dogs, blurry, low quality, text
+
+    target_prompts:
+    -    a bear and a cat and a bird are sitting on a wooden bench
+    mask_token_groups:
+    - token_indices: [1,2]
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/29/mask_2.png
+    - token_indices: [4,5]
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/29/mask_1.png
+    - token_indices: [7,8]
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/29/mask_3.png
+        
+  -
+    init_img:  ../Dataset/LoMOE-Bench/images/30/init_image.png
+    img_num: 30
+    source_prompt:   two zebras in a field
+    # negative_prompt: zebras, blurry, low quality, text
+
+    target_prompts:
+    -   a bear and an eagle in a field
+    mask_token_groups:
+    - token_indices: [1,2]
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/30/mask_1.png
+    - token_indices: [4,5]
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/30/mask_2.png
+      
+  -
+    init_img:  ../Dataset/LoMOE-Bench/images/30/init_image.png
+    img_num: 30
+    source_prompt:   two zebras in a field
+    # negative_prompt: zebras, blurry, low quality, text
+
+    target_prompts:
+    -   a teddy bear and an eagle in a field
+    mask_token_groups:
+    - token_indices: [1,2,3]
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/30/mask_1.png
+    - token_indices: [5,6]
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/30/mask_2.png
+  # -
+  #   init_img:  ../Dataset/LoMOE-Bench/images/30/init_image.png
+  #   img_num: 30
+  #   source_prompt:   two zebras in a field
+  #   # negative_prompt: zebras, blurry, low quality, text
+
+  #   target_prompts:
+  #   -   a tiger and an eagle in a field
+  #   mask_token_groups:
+  #   - token_indices: [1,2]
+  #     mask_paths:
+  #       - ../Dataset/LoMOE-Bench/images/30/mask_1.png
+  #   - token_indices: [4,5]
+  #     mask_paths:
+  #       - ../Dataset/LoMOE-Bench/images/30/mask_2.png
+      
+  -
+    init_img:  ../Dataset/LoMOE-Bench/images/56/init_image.png
+    img_num: 56
+    source_prompt:    two rubber ducks on a table
+    # negative_prompt: rubber ducks, blurry, low quality, text
+
+    target_prompts:
+    -   two eagles on a table
+
+    mask_token_groups:
+    - token_indices: [1,2]
+      mask_paths:
+        - ../Dataset/LoMOE-Bench/images/56/mask_1.png
+        - ../Dataset/LoMOE-Bench/images/56/mask_2.png

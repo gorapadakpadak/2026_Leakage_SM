@@ -1,0 +1,585 @@
+#^ - - - - - - - - OIR bench - - - - - - - - #
+#* - - Edit Token - - #
+- init_img: ../Dataset/OIR-Bench/multi_object/dataset/multi_object_001.png
+  img_num: 1
+  source_prompt: a cat sitting on the table next to a vase of flowers
+  target_prompts:
+  - a rabbit sitting on the table next to a vase with a balloon
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_001/a cat.png
+  - token_indices:
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_001/a vase of flowers.png
+
+- init_img: ../Dataset/OIR-Bench/multi_object/dataset/multi_object_002.png
+  img_num: 2
+  source_prompt: a vase with leaves in it on the right on a table next to a wooden
+    framed decorations on the wall on the left
+  target_prompts:
+  - A vase of flowers on a table to the right, next to a tiger painting on the left wall
+  mask_token_groups:
+  - token_indices:
+    - 4
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_002/leaves.png
+  - token_indices:
+    - 14
+    - 15
+    - 16
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_002/wooden framed decorations.png
+
+- init_img: ../Dataset/OIR-Bench/multi_object/dataset/multi_object_003.png
+  img_num: 3
+  source_prompt: a dog on the right and a cat on the left sitting on a bed
+  target_prompts:
+  - a lion on the right and a tiger on the left, both sitting on a bed
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_003/dog on the right.png
+  - token_indices:
+    - 7
+    - 8
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_003/cat on the left.png
+
+- init_img: ../Dataset/OIR-Bench/multi_object/dataset/multi_object_004.png
+  img_num: 4
+  source_prompt: a bee flying out of a glass jar in a green and red leafy basket
+  target_prompts:
+  - a bird flying out of a glass jar filled with candies
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_004/bee.png
+  - token_indices:
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_004/a glass jar in a green
+      and red leafy basket.png
+
+- init_img: ../Dataset/OIR-Bench/multi_object/dataset/multi_object_005.png
+  img_num: 5
+  source_prompt: a vase on the left next to a book on the right on a table
+  target_prompts:
+  - a cat on the left next to a towel on the right on a table
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_005/vase.png
+  - token_indices:
+    - 8
+    - 9
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_005/book.png
+
+- init_img: ../Dataset/OIR-Bench/multi_object/dataset/multi_object_006.png
+  img_num: 6
+  source_prompt: a dog wearing a santa hat on the right pushing a Christmas cart on
+    the left
+  target_prompts:
+  - a teddy bear wearing a santa hat on the right, pushing a car on the left
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_006/dog.png
+  - token_indices:
+    - 13
+    - 14
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_006/Christmas cart.png
+    
+- init_img: ../Dataset/OIR-Bench/multi_object/dataset/multi_object_007.png
+  img_num: 7
+  source_prompt: a book on a round wooden table next a bottle of straw
+  target_prompts:
+  - a toy car on a square silver table next to a bottle of straw
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_007/book.png
+  - token_indices:
+    - 5
+    - 6
+    - 7
+    - 8
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_007/wooden table.png
+
+- init_img: ../Dataset/OIR-Bench/multi_object/dataset/multi_object_009.png
+  img_num: 9
+  source_prompt: a bowl of dumplings on the left and chopsticks on the right
+  target_prompts:
+  - a bowl of pumpkin soup on the left and a spoon on the right
+  mask_token_groups:
+  - token_indices:
+    - 4
+    - 5
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_009/dumplings.png
+  - token_indices:
+    - 10
+    - 11
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_009/chopsticks.png
+
+- init_img: ../Dataset/OIR-Bench/multi_object/dataset/multi_object_010.png
+  img_num: 10
+  source_prompt: a small house in the middle of a grassy field and a row of tables
+    to its right
+  target_prompts:
+  - a truck in the middle of a grassy field and a crocodile to its right
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_010/house.png
+  - token_indices:
+    - 11
+    - 12
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_010/a row of tables.png
+
+- init_img: ../Dataset/OIR-Bench/multi_object/dataset/multi_object_014.png
+  img_num: 14
+  source_prompt: a car parked in front of a wooden house
+  target_prompts:
+  - a bear is in front of a tent
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_014/car out of the glass.png
+  - token_indices:
+    - 7
+    - 8
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_014/wooden house.png
+
+- init_img: ../Dataset/OIR-Bench/multi_object/dataset/multi_object_019.png
+  img_num: 19
+  source_prompt: a fork on the left and a steak on the right on a plate with rosemary
+    sprigs
+  target_prompts:
+  - a knife on the left and strawberries on the right on a plate with rosemary sprigs
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_019/fork.png
+  - token_indices:
+    - 7
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_019/steak.png
+
+- init_img: ../Dataset/OIR-Bench/multi_object/dataset/multi_object_022.png
+  img_num: 22
+  source_prompt: a stack of pancakes on a plate next to a cup of milk
+  target_prompts:
+  - a Halloween pumpkin on a plate next to a cup of matcha
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_022/a stack of pancakes.png
+  - token_indices:
+    - 9
+    - 10
+    - 11
+    - 12
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_022/a cup of milk.png
+
+- init_img: ../Dataset/OIR-Bench/multi_object/dataset/multi_object_023.png
+  img_num: 23
+  source_prompt: a bowl of cigarettes with a spoon on a concrete surface
+  target_prompts:
+  - a bowl of grapes with a fork on a concrete surface
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    - 4
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_023/a bowl of cigarettes.png
+  - token_indices:
+    - 6
+    - 7
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_023/spoon.png
+
+- init_img: ../Dataset/OIR-Bench/multi_object/dataset/multi_object_044.png
+  img_num: 44
+  source_prompt: a man wearing a white spacesuit is standing on top of a mountain
+    looking at a glass sphere surrounded by rings
+  target_prompts:
+  - a cat is standing on top of a mountain looking at a pink cloud
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_044/a man wearing a white
+      spacesuit.png
+  - token_indices:
+    - 12
+    - 13
+    - 14
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_044/a glass sphere surrounded
+      by rings.png
+
+- init_img: ../Dataset/OIR-Bench/multi_object/dataset/multi_object_048.png
+  img_num: 48
+  source_prompt: an astronaut wearing a white spacesuit stands in the middle of the
+    sea, and three beams of light pass through the center of a pink cloud
+  target_prompts:
+  - A dolphin in the middle of the sea, and three beams of light pass through the center of an airplane
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_048/an astronaut wearing
+      a white spacesuit.png
+  - token_indices:
+    - 20
+    - 21
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_048/a pink cloud.png
+
+
+- init_img: ../Dataset/OIR-Bench/multi_object/dataset/multi_object_049.png
+  img_num: 49
+  source_prompt: silhouette of a lone tree on a hill with the full moon behind it
+  target_prompts:
+  - silhouette of a man on a hill with the bird behind him
+  mask_token_groups:
+  - token_indices:
+    - 3
+    - 4
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_049/a lone tree.png
+  - token_indices:
+    - 9
+    - 10
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_049/full moon.png
+
+- init_img: ../Dataset/OIR-Bench/multi_object/dataset/multi_object_050.png
+  img_num: 50
+  source_prompt: a monitor with a keyboard connected
+  target_prompts:
+  - a teddy bear playing with a robot
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_050/a monitor.png
+  - token_indices:
+    - 6
+    - 7
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_050/a keyboard.png
+
+- init_img: ../Dataset/OIR-Bench/multi_object/dataset/multi_object_051.png
+  img_num: 51
+  source_prompt: a TV set on a bench in a patch of bushes
+  target_prompts:
+  - a teddy bear sitting on a car in a patch of bushes
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_051/a TV.png
+  - token_indices:
+    - 6
+    - 7
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_051/a bench.png
+
+- init_img: ../Dataset/OIR-Bench/multi_object/dataset/multi_object_057.png
+  img_num: 57
+  source_prompt: a white cat and a glass cup
+  target_prompts:
+  - a fluffy dog and a lego cup
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_057/a white cat.png
+  - token_indices:
+    - 5
+    - 6
+    - 7
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_057/glass.png
+
+- init_img: ../Dataset/OIR-Bench/multi_object/dataset/multi_object_060.png
+  img_num: 60
+  source_prompt: a skull on top of a book
+  target_prompts:
+  - An orange on top of a towel
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_060/a skull.png
+  - token_indices:
+    - 6
+    - 7
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_060/a book.png
+
+
+- init_img: ../Dataset/OIR-Bench/multi_object/dataset/multi_object_061.png
+  img_num: 61
+  source_prompt: a cat sitting on a bean bag chair
+  target_prompts:
+  - a bird sitting on a wooden chair
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_061/a cat.png
+  - token_indices:
+    - 5
+    - 6
+    - 7
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_061/a bean bag chair.png
+
+- init_img: ../Dataset/OIR-Bench/multi_object/dataset/multi_object_065.png
+  img_num: 65
+  source_prompt: a rabbit wearing glasses lay on a book
+  target_prompts:
+  - a tiger wearing glasses lying on a blanket
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    - 4
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_065/a rabbit wearing glasses.png
+  - token_indices:
+    - 7
+    - 8
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_065/a book.png
+
+- init_img: ../Dataset/OIR-Bench/multi_object/dataset/multi_object_066.png
+  img_num: 66
+  source_prompt: a monkey sitting on a stone pillar
+  target_prompts:
+  - An eagle sitting on a wooden table
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_066/a monkey.png
+  - token_indices:
+    - 5
+    - 6
+    - 7
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_066/a stone pillar.png
+
+- init_img: ../Dataset/OIR-Bench/multi_object/dataset/multi_object_074.png
+  img_num: 74
+  source_prompt: a man wearing a helmet stands on a motorcycle
+  target_prompts:
+  - a bear wearing a helmet standing on a bicycle
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_074/a man in black clothes
+      and a helmet.png
+  - token_indices:
+    - 8
+    - 9
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_074/a motorcycle.png
+
+
+- init_img: ../Dataset/OIR-Bench/multi_object/dataset/multi_object_077.png
+  img_num: 77
+  source_prompt: a light bulb with a filament placed on top of a book
+  target_prompts:
+  - a bird sitting on a soft blanket
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_077/filament.png
+  - token_indices:
+    - 5
+    - 6
+    - 7
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_077/a book.png
+
+- init_img: ../Dataset/OIR-Bench/multi_object/dataset/multi_object_085.png
+  img_num: 85
+  source_prompt: a small plant in a human hand
+  target_prompts:
+  - a bird perched on a metallic robot hand
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_085/a small plant.png
+  - token_indices:
+    - 5
+    - 6
+    - 7
+    - 8
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_085/a human hand.png
+
+
+- init_img: ../Dataset/OIR-Bench/multi_object/dataset/multi_object_089.png
+  img_num: 89
+  source_prompt: two astronauts looking at a spacecraft in the desert
+  target_prompts:
+  - two bears standing in the desert looking at a single tree
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_089/two astronauts.png
+  - token_indices:
+    - 9
+    - 10
+    - 11
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_089/a spacecraft.png
+
+#* - - src bias - - #
+- init_img: ../Dataset/OIR-Bench/multi_object/dataset/multi_object_007.png
+  img_num: 7
+  source_prompt: a book on a round wooden table next a bottle of straw
+  target_prompts:
+  - a book on a square silver table next to a bottle of straw
+  mask_token_groups:
+  - token_indices:
+    - 4
+    - 5
+    - 6
+    - 7
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_007/wooden table.png
+- init_img: ../Dataset/OIR-Bench/multi_object/dataset/multi_object_014.png
+  img_num: 14
+  source_prompt: a car parked in front of a wooden house
+  target_prompts:
+  - a truck parked in front of a wooden house
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_014/car out of the glass.png
+
+- init_img: ../Dataset/OIR-Bench/multi_object/dataset/multi_object_057.png
+  img_num: 57
+  source_prompt: a white cat and a glass cup
+  target_prompts:
+  - a teddy bear and a glass cup
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_057/a white cat.png
+
+- init_img: ../Dataset/OIR-Bench/multi_object/dataset/multi_object_061.png
+  img_num: 61
+  source_prompt: a cat sitting on a bean bag chair
+  target_prompts:
+  - a cat sitting on a wooden chair
+  mask_token_groups:
+  - token_indices:
+    - 5
+    - 6
+    - 7
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_061/a bean bag chair.png
+
+- init_img: ../Dataset/OIR-Bench/multi_object/dataset/multi_object_065.png
+  img_num: 65
+  source_prompt: a rabbit wearing glasses lay on a book
+  target_prompts:
+  - a lion wearing glasses lying on a blanket
+  mask_token_groups:
+  - token_indices:
+    - 1
+    - 2
+    - 3
+    - 4
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_065/a rabbit wearing glasses.png
+  
+- init_img: ../Dataset/OIR-Bench/multi_object/dataset/multi_object_077.png
+  img_num: 77
+  source_prompt: a light bulb with a filament placed on top of a book
+  target_prompts:
+  - a light bulb with a filament placed on top of a wooden table
+  mask_token_groups:
+  - token_indices:
+    - 11
+    - 12
+    - 13
+    mask_paths:
+    - ../Dataset/OIR-Bench/multi_object/mask/multi_object_077/a book.png
